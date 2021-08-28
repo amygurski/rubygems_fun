@@ -7,6 +7,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'faker'
 
+gem 'devise'
+
 gem 'haml-rails', '~> 2.0'
 
 gem 'jbuilder', '~> 2.7'
