@@ -9,6 +9,8 @@ gem 'faker'
 
 gem 'devise'
 
+gem 'friendly_id'
+
 gem 'haml-rails', '~> 2.0'
 
 gem 'jbuilder', '~> 2.7'
