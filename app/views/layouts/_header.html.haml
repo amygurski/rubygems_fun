@@ -11,7 +11,7 @@
             Home
         %ul.navbar-nav.mr-auto
           = link_to courses_path, class: "nav-link #{'active fw-bold' if current_page?(courses_path)}" do
-            .fa.fa-book
+            .fa.fa-graduation-cap
             Courses
         %ul.navbar-nav.mr-auto
           = link_to new_course_path, class: "nav-link #{'active fw-bold' if current_page?(new_course_path)}" do

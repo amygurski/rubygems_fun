@@ -15,6 +15,8 @@ gem 'haml-rails', '~> 2.0'
 
 gem 'jbuilder', '~> 2.7'
 
+gem 'language_list'
+
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 
