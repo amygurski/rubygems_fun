@@ -7,4 +7,5 @@ Having fun checkout out some different gems via [Ruby on Rails 6: Learn 25+ gems
   - [faker](https://github.com/faker-ruby/faker) - Faker::Educator used for course names; descriptions taken from Faker::TvShows::Seinfeld. While messing with this I discovered `rake db:seed:replant`, added in rails 6 ([PR #34779](https://github.com/rails/rails/pull/34779)), which truncates the tables of each database for the current environment and loads the seeds.
   - [devise](https://github.com/heartcombo/devise) 
   - [friendly_id](https://github.com/norman/friendly_id) - the [guide](https://norman.github.io/friendly_id/file.Guide.html) is helpful; slugging and pretty URLs, e.g. .../courses/biological-science-188 instead of .../courses/Biological%20Science%20188 
-  - [trackable](https://www.rubydoc.info/github/heartcombo/devise/master/Devise/Models/Trackable) - devise module which tracks info about user sign in
+  - [trackable](https://github.com/heartcombo/devise/wiki/How-To:-Add-:trackable-to-Users) - devise module that tracks info about user sign in
+  - [confirmable](https://github.com/heartcombo/devise/wiki/How-To:-Add-:confirmable-to-Users) - devise module that sends emails with confirmation instructions and verifies whether an account is already confirmed to sign in 
