@@ -1,9 +1,11 @@
-LANGUAGES = LanguageList::COMMON_LANGUAGES.map { |l| l.name }
-LEVELS = [:"Beginner", :"Intermediate", :"Advanced"]
+# frozen_string_literal: true
+
+LANGUAGES = LanguageList::COMMON_LANGUAGES.map(&:name)
+LEVELS = %i[Beginner Intermediate Advanced].freeze
 
 class Course < ApplicationRecord
-  validates :title, :short_description, :language, :price, :level,  presence: true
-  validates :description, presence: true, length: { :minimum => 5 }
+  validates :title, :short_description, :language, :price, :level, presence: true
+  validates :description, presence: true, length: { minimum: 5 }
 
   belongs_to :user
 
@@ -14,7 +16,7 @@ class Course < ApplicationRecord
   has_rich_text :description
 
   extend FriendlyId
-  friendly_id :title, :use => :slugged
+  friendly_id :title, use: :slugged
 
   def self.languages
     LANGUAGES.map { |language| [language, language] }
