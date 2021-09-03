@@ -11,3 +11,4 @@ Having fun checking out some different gems via [Ruby on Rails 6: Learn 25+ gems
   - [confirmable](https://github.com/heartcombo/devise/wiki/How-To:-Add-:confirmable-to-Users) - devise module that sends emails with confirmation instructions and verifies whether an account is already confirmed to sign in
   - [language_list](https://github.com/scsmith/language_list) - not in the course, added this one for fun to get a wider range of possible course languages easier
   - [ransack](https://github.com/activerecord-hackery/ransack) - search and filter data
+  - [public_activity](https://github.com/chaps-io/public_activity) - activity tracking
